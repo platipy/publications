@@ -6,7 +6,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[final]{beamer}
-\usepackage[scale=1.24]{beamerposter}
+\usepackage[scale=1.24,orientation=portrait]{beamerposter}
 \usepackage{graphicx}			% allows us to import images
 
 %-----------------------------------------------------------
@@ -20,13 +20,13 @@
 \newlength{\sepwid}
 \newlength{\onecolwid}
 \newlength{\twocolwid}
-\newlength{\threecolwid}
-\setlength{\paperwidth}{48in}
-\setlength{\paperheight}{36in}
+% \newlength{\threecolwid}
+\setlength{\paperwidth}{42in}
+\setlength{\paperheight}{48in}
 \setlength{\sepwid}{0.024\paperwidth}
 \setlength{\onecolwid}{0.22\paperwidth}
 \setlength{\twocolwid}{0.464\paperwidth}
-\setlength{\threecolwid}{0.708\paperwidth}
+%\setlength{\threecolwid}{0.708\paperwidth}
 \setlength{\topmargin}{-0.5in}
 \usetheme{confposter}
 
@@ -133,14 +133,7 @@
 		}
 	\end{block}
 
-\end{column}
-\begin{column}{\sepwid}\end{column}			% empty spacer column
-
-
-
-%%%%%%%%%%%%%%%%%
-%% Column 3
-    \begin{column}{\onecolwid}
+    %\begin{column}{\onecolwid}
 	
 		% \begin{center}
 		% 	\includegraphics[scale=0.6]{"images/experiment_vs_curvature"}
@@ -149,7 +142,7 @@
       \begin{block}{Experiment}
         \rmfamily{
 
-%		\begin{center}\includegraphics[scale=1.2]{EllipseAR1.pdf}\end{center}
+	This is the experiment.
 		}
   \end{block}
   \vskip2ex
@@ -163,12 +156,12 @@
 	}\vspace{.5em}
   \end{alertblock}
 
-\end{column}
-\begin{column}{\sepwid}\end{column}			% empty spacer column
+%\end{column}
+%\begin{column}{\sepwid}\end{column}			% empty spacer column
 
 %%% Column 4
 
-	    \begin{column}{\onecolwid}
+%	    \begin{column}{\onecolwid}
 		\begin{block}{Results}
 			\rmfamily{
 			

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.30)  30 JAN 2013 12:15
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.30)  3 FEB 2013 11:02
 entering extended mode
 **C:/Users/acbart/Projects/Platipy/publications/CHEP*13/poster.tex
 ("C:/Users/acbart/Projects/Platipy/publications/CHEP 13/poster.tex"
@@ -713,6 +713,9 @@ beamerposter: the input a0\ 1\ was correct, we proceed.
 beamerposter: finished size input check.
 beamerposter: myfontscale=1.0
 beamerposter: myfontscale=1.24
+beamerposter: checking orientation input, please wait.
+beamerposter: the input portrait\ 0\ was correct, we proceed.
+beamerposter: finished orientation check.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp.sty"
 Package: fp 1995/04/02
 
@@ -760,7 +763,9 @@ Package: fp-upn 1996/10/21
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
 Package: fp-eval 1995/04/03
-)) ( FP-UPN ( FP-MUL )
+))
+\tmp=\dimen183
+ ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
@@ -776,7 +781,6 @@ Package: fp-eval 1995/04/03
 \sepwid=\skip57
 \onecolwid=\skip58
 \twocolwid=\skip59
-\threecolwid=\skip60
 
 ("C:\Users\acbart\Projects\Platipy\publications\CHEP 13\beamerthemeconfposter.s
 ty"
@@ -794,8 +798,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
 sty"
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen183
-\pgf@nodesepend=\dimen184
+\pgf@nodesepstart=\dimen184
+\pgf@nodesepend=\dimen185
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
 sty"
@@ -805,8 +809,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen185
-\pgffor@skip=\dimen186
+\pgffor@iter=\dimen186
+\pgffor@skip=\dimen187
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
 ))
@@ -817,14 +821,14 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 code.tex"
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count165
-\pgfplotmarksize=\dimen187
+\pgfplotmarksize=\dimen188
 )
-\tikz@lastx=\dimen188
-\tikz@lasty=\dimen189
-\tikz@lastxsaved=\dimen190
-\tikz@lastysaved=\dimen191
-\tikzleveldistance=\dimen192
-\tikzsiblingdistance=\dimen193
+\tikz@lastx=\dimen189
+\tikz@lasty=\dimen190
+\tikz@lastxsaved=\dimen191
+\tikz@lastysaved=\dimen192
+\tikzleveldistance=\dimen193
+\tikzsiblingdistance=\dimen194
 \tikz@figbox=\box54
 \tikz@tempbox=\box55
 \tikztreelevel=\count166
@@ -851,7 +855,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.t
 ex"
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen194
+\arrowsize=\dimen195
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarybackgrounds.code.tex"
@@ -991,24 +995,24 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
  ("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip61
-\RaggedLeftLeftskip=\skip62
-\RaggedRightLeftskip=\skip63
-\CenteringRightskip=\skip64
-\RaggedLeftRightskip=\skip65
-\RaggedRightRightskip=\skip66
-\CenteringParfillskip=\skip67
-\RaggedLeftParfillskip=\skip68
-\RaggedRightParfillskip=\skip69
-\JustifyingParfillskip=\skip70
-\CenteringParindent=\skip71
-\RaggedLeftParindent=\skip72
-\RaggedRightParindent=\skip73
-\JustifyingParindent=\skip74
+\CenteringLeftskip=\skip60
+\RaggedLeftLeftskip=\skip61
+\RaggedRightLeftskip=\skip62
+\CenteringRightskip=\skip63
+\RaggedLeftRightskip=\skip64
+\RaggedRightRightskip=\skip65
+\CenteringParfillskip=\skip66
+\RaggedLeftParfillskip=\skip67
+\RaggedRightParfillskip=\skip68
+\JustifyingParfillskip=\skip69
+\CenteringParindent=\skip70
+\RaggedLeftParindent=\skip71
+\RaggedRightParindent=\skip72
+\JustifyingParindent=\skip73
 )
-\inboxwd=\skip75
-\iinboxwd=\skip76
-\inboxrule=\skip77
+\inboxwd=\skip74
+\iinboxwd=\skip75
+\inboxrule=\skip76
 )
 ("C:\Users\acbart\Projects\Platipy\publications\CHEP 13\poster.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -1045,12 +1049,12 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 3323.85117pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 2388.89357pt, 0.0pt)
-* \paperwidth=3468.95999pt
-* \paperheight=2601.71999pt
-* \textwidth=3323.85117pt
-* \textheight=2360.44084pt
+* h-part:(L,W,R)=(28.45274pt, 2331.98808pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 3380.75665pt, 0.0pt)
+* \paperwidth=3035.34pt
+* \paperheight=3468.95999pt
+* \textwidth=2331.98808pt
+* \textheight=3352.30392pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-36.135pt
@@ -1074,13 +1078,13 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count174
-\scratchdimen=\dimen195
+\scratchdimen=\dimen196
 \scratchbox=\box58
 \nofMPsegments=\count175
 \nofMParguments=\count176
 \everyMPshowfont=\toks44
 \MPscratchCnt=\count177
-\MPscratchDim=\dimen196
+\MPscratchDim=\dimen197
 \MPnumerator=\count178
 \makeMPintoPDFobject=\count179
 \everyMPtoPDFconversion=\toks45
@@ -1140,7 +1144,7 @@ File: images/VTlogo.png Graphic file (type png)
 Package pdftex.def Info: images/VTlogo.png used on input line 57.
 (pdftex.def)             Requested size: 281.04808pt x 134.4815pt.
 
-Overfull \hbox (81.62514pt too wide) in paragraph at lines 57--57
+Overfull \hbox (141.13449pt too wide) in paragraph at lines 57--57
 []  
  []
 
@@ -1178,53 +1182,70 @@ File: images/UDLogo.png Graphic file (type png)
  <use images/UDLogo.png>
 Package pdftex.def Info: images/UDLogo.png used on input line 57.
 (pdftex.def)             Requested size: 117.48012pt x 135.02585pt.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 263.
 
+Overfull \hbox (24.21626pt too wide) in paragraph at lines 57--57
+[][]  
+ []
+
+
+Overfull \hbox (304.4445pt too wide) detected at line 57
+ [] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 256.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 263.
+LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 256.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <37.03> on input line 263.
+(Font)              <37.03> on input line 256.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <25.92088> on input line 263.
+(Font)              <25.92088> on input line 256.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.515> on input line 263.
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 263
+(Font)              <18.515> on input line 256.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 256
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmss.fd"
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-LaTeX Warning: Reference `MEMSeq' on page 1 undefined on input line 263.
+LaTeX Warning: Reference `MEMSeq' on page 1 undefined on input line 256.
 
 
-Overfull \hbox (171.5185pt too wide) detected at line 263
-[][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
-][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][]
- [][][][][][][][][] [][][][][][][] 
- []
-
-
-Overfull \vbox (523.20914pt too high) detected at line 263
+Overfull \vbox (14.14287pt too high) detected at line 256
  []
 
 File: images/VTlogo.png Graphic file (type png)
 <use images/VTlogo.png>
-Package pdftex.def Info: images/VTlogo.png used on input line 263.
+Package pdftex.def Info: images/VTlogo.png used on input line 256.
 (pdftex.def)             Requested size: 281.04808pt x 134.4815pt.
 
-Overfull \hbox (81.62514pt too wide) has occurred while \output is active
+Overfull \hbox (141.13449pt too wide) has occurred while \output is active
 []  
  []
 
 File: images/UDLogo.png Graphic file (type png)
 <use images/UDLogo.png>
-Package pdftex.def Info: images/UDLogo.png used on input line 263.
+Package pdftex.def Info: images/UDLogo.png used on input line 256.
 (pdftex.def)             Requested size: 117.48012pt x 135.02585pt.
 
-Overfull \hbox (88.20334pt too wide) has occurred while \output is active
+Overfull \hbox (24.21626pt too wide) has occurred while \output is active
+[][]  
+ []
+
+
+Overfull \hbox (304.4445pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (36.135pt too wide) has occurred while \output is active
+[] []
+ []
+
+
+Overfull \hbox (646.44643pt too wide) has occurred while \output is active
 []
  []
 
@@ -1235,25 +1256,25 @@ Users/acbart/Projects/Platipy/publications/CHEP 13/images/UDLogo.png>]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
 
 ("C:\Users\acbart\Projects\Platipy\publications\CHEP 13\poster.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 19681 strings out of 494045
- 370027 string characters out of 3148384
- 522685 words of memory out of 3000000
- 22458 multiletter control sequences out of 15000+200000
+ 19683 strings out of 494045
+ 370071 string characters out of 3148384
+ 520658 words of memory out of 3000000
+ 22460 multiletter control sequences out of 15000+200000
  66814 words of font info for 63 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  52i,19n,66p,666b,1164s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1267,7 +1288,7 @@ enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 227247 bytes).
+Output written on poster.pdf (1 page, 227322 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
