@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.30)  3 FEB 2013 19:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.30)  3 FEB 2013 19:59
 entering extended mode
 **C:/Users/acbart/Projects/Platipy/publications/CHEP*13/poster.tex
 ("C:/Users/acbart/Projects/Platipy/publications/CHEP 13/poster.tex"
@@ -1180,4 +1180,134 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <images/UDLogo.png, id=14, 309.155pt x 355.3275pt>
 File: images/UDLogo.png Graphic file (type png)
  <use images/UDLogo.png>
-Package pdftex.def Info: images/
+Package pdftex.def Info: images/UDLogo.png used on input line 57.
+(pdftex.def)             Requested size: 117.48012pt x 135.02585pt.
+
+Overfull \hbox (24.21626pt too wide) in paragraph at lines 57--57
+[][]  
+ []
+
+
+Overfull \hbox (304.4445pt too wide) detected at line 57
+ [] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 265.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 265.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <37.03> on input line 265.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <25.92088> on input line 265.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <18.515> on input line 265.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 265
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmss.fd"
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<"images/results_games".png, id=16, 1659.95157pt x 928.21782pt>
+File: "images/results_games".png Graphic file (type png)
+
+<use "images/results_games".png>
+Package pdftex.def Info: "images/results_games".png used on input line 265.
+(pdftex.def)             Requested size: 1659.94753pt x 928.21556pt.
+
+Overfull \hbox (992.16902pt too wide) in paragraph at lines 265--265
+ [] 
+ []
+
+
+Overfull \hbox (214.1925pt too wide) in paragraph at lines 265--265
+[][] 
+ []
+
+
+LaTeX Warning: Reference `MEMSeq' on page 1 undefined on input line 265.
+
+
+Overfull \vbox (1019.21184pt too high) detected at line 265
+ []
+
+File: images/VTlogo.png Graphic file (type png)
+<use images/VTlogo.png>
+Package pdftex.def Info: images/VTlogo.png used on input line 265.
+(pdftex.def)             Requested size: 281.04808pt x 134.4815pt.
+
+Overfull \hbox (141.13449pt too wide) has occurred while \output is active
+[]  
+ []
+
+File: images/UDLogo.png Graphic file (type png)
+<use images/UDLogo.png>
+Package pdftex.def Info: images/UDLogo.png used on input line 265.
+(pdftex.def)             Requested size: 117.48012pt x 135.02585pt.
+
+Overfull \hbox (24.21626pt too wide) has occurred while \output is active
+[][]  
+ []
+
+
+Overfull \hbox (304.4445pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (36.135pt too wide) has occurred while \output is active
+[] []
+ []
+
+
+Overfull \hbox (646.44643pt too wide) has occurred while \output is active
+[]
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+ <C:/Users/acbart/Projects/Platipy/publications/CHEP 13/images/VTlogo.png> <C:/
+Users/acbart/Projects/Platipy/publications/CHEP 13/images/UDLogo.png> <C:/Users
+/acbart/Projects/Platipy/publications/CHEP 13/images/results_games.png>]
+\tf@nav=\write6
+\tf@toc=\write7
+\tf@snm=\write8
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
+
+("C:\Users\acbart\Projects\Platipy\publications\CHEP 13\poster.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
+Package rerunfilecheck Info: File `poster.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
+ ) 
+Here is how much of TeX's memory you used:
+ 19688 strings out of 494045
+ 370211 string characters out of 3148384
+ 530097 words of memory out of 3000000
+ 22464 multiletter control sequences out of 15000+200000
+ 66814 words of font info for 63 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 52i,19n,66p,666b,1168s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{MEMSeq} has been referenced but does not exist, r
+eplaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files
+/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts
+/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.
+enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on poster.pdf (1 page, 340236 bytes).
+PDF statistics:
+ 58 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+
