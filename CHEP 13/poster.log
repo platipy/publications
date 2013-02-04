@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.30)  3 FEB 2013 19:59
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.30)  4 FEB 2013 12:45
 entering extended mode
 **C:/Users/acbart/Projects/Platipy/publications/CHEP*13/poster.tex
 ("C:/Users/acbart/Projects/Platipy/publications/CHEP 13/poster.tex"
@@ -1229,7 +1229,7 @@ Overfull \hbox (214.1925pt too wide) in paragraph at lines 265--265
 LaTeX Warning: Reference `MEMSeq' on page 1 undefined on input line 265.
 
 
-Overfull \vbox (1019.21184pt too high) detected at line 265
+Overfull \vbox (1569.7719pt too high) detected at line 265
  []
 
 File: images/VTlogo.png Graphic file (type png)
@@ -1290,11 +1290,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
 Here is how much of TeX's memory you used:
  19688 strings out of 494045
  370211 string characters out of 3148384
- 530097 words of memory out of 3000000
+ 536830 words of memory out of 3000000
  22464 multiletter control sequences out of 15000+200000
  66814 words of font info for 63 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 52i,19n,66p,666b,1168s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,19n,66p,715b,1168s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{MEMSeq} has been referenced but does not exist, r
 eplaced by a fixed one
 
@@ -1305,7 +1305,7 @@ enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 340236 bytes).
+Output written on poster.pdf (1 page, 340877 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
