@@ -8,6 +8,9 @@
 \documentclass[final]{beamer}
 \usepackage[scale=1.24,orientation=portrait]{beamerposter}
 \usepackage{graphicx}			% allows us to import images
+\usepackage{caption}
+% \usepackage{floatrow}
+
 
 %-----------------------------------------------------------
 % Define the column width and poster size
@@ -29,6 +32,8 @@
 %\setlength{\threecolwid}{0.708\paperwidth}
 \setlength{\topmargin}{-0.5in}
 \usetheme{confposter}
+\captionsetup{width=0.3\paperwidth}
+% \floatsetup[caption]{}
 
 %-----------------------------------------------------------
 % Define colours (see beamerthemeconfposter.sty to change these colour definitions)
@@ -66,30 +71,29 @@
 \begin{column}{\onecolwid}
     \begin{alertblock}{Introduction}
         \rmfamily{
-            [Sentence on video games as a useful tool in both education and in computer science education] [Introduce CISC374 as a course which aims to combine both of these goals] [Sentence on the emphasis on educational game development, working with CCCS] [Elaborate on CCCS, talk about their income level, the donation of XOs] [Pivot back to the use as an educational tool in software engineering for college juniors/seniors] To help this course achieve its goals, we have developed a set of tools to help address some difficulties and limitations in the tools previously available.
+           Creating a game is an excellent learning opportunity for computer science students because it requires an in-depth understanding of programming languages, object-oriented design, problem-solving, constraints, and teamwork.  Games are also a powerful teaching tool which primary and secondary school educators have used for targeted teaching, improvement, and evaluation of their students' skills.  In response, the University of Delaware created a course called Educational Game Development which works with middle school teachers at the Chester Community Charter School (CCCS). Teams of 3-5 upperclassmen are given the opportunity to apply skills learned in the classroom to create software for real-world clients.  To help this course achieve its goals, we have developed a set of tools to address some of the difficulties and limitations in existing tools.
 		}
-    	\vspace{.5em}
+    	\vspace{.2em}
     \end{alertblock}
     \vskip2ex
     \begin{block}{Development Platform}
         \rmfamily{
-            The primary development platform is the OLPC XO, as they are the most readily available platform at the target middle school. To allow for rapid development in one semester, and because it is the favored language on the OLPC XO, Python was chosen as the language to be used in the class. Lastly, because it is preinstalled and because the lack of hardware support in the operating system eliminates most other options, Pygame was chosen as the graphics library to be used in the course.
-		}
+Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by the One Laptop Per Child Foundation which run a custom version of Linux and are programmed in Python.  The Python package Pygame is used for game development.  Because Python and Pygame are cross-platform, students are able to develop, test, and deploy their games on Windows, OS X, Linux, and XO computers.  		}
 	\end{block}
 
     \begin{block}{Spyral}
         \rmfamily{
-    		Spyral is a 2D sprite-based engine [built on top of pygame?] designed to allow the rapid development of games, particularly those targetted at low performance platforms. It started as a library to optimize drawing during an early semester of the course, and grew to include many more features that previously had to be written by each team individually. [Perhaps a note on why we have to use pygame?] Spyral now includes modules to handle:
+    		Spyral is a 2D sprite-based engine built on top of pygame designed to allow the rapid development of games, particularly those targetted at low performance platforms. It started as a library to optimize drawing during an early semester of the course, and grew to include many more features that previously had to be written by each team individually. Spyral now includes modules to handle:
     		\begin{itemize}
-    			\item Scenes, for game organization
-    			\item Images, for loading and drawing graphics in a consistent way
-    			\item Sprites
-    			\item Fonts
-    			\item Event Handling
-    			\item Vectors
-    			\item Rectangles
-    			\item Animations
-    			\item Clock
+    			\item Images - loading and drawing graphics
+    			\item Sprites - positioning images on the screen
+                \item Cameras - batch sprite manipulation
+    			\item Scenes - game organization
+    			\item Fonts - loading and rendering text
+    			\item Events - keyboard and mouse input
+    			\item Vectors - manipulating 2D coordinates
+    			\item Animations - simple sprite transformations
+    			\item Clock - controlling game speed
     		\end{itemize}
             
             In addition to providing tools for making game development easier, spyral also works to teach and encourage better software engineering practices to the users, targetting places where poor decisions were routinely made in the past. In particular, the use of a scene system encourages the separation of content into disjoint pieces where possible, and the event system is designed to mimick and be used like modern event driven systems for games, networking software, and parallel software.
@@ -127,63 +131,72 @@
 		}
 	\end{block}
     
-    \begin{block}{Platipy}
-        \rmfamily{
-            Platipy is the misspelled plural of platipus.
-		}
-	\end{block}
+    \vspace{3in}
+  
+\begin{figure}[h]
+    \label{reaction}
+	\includegraphics[width=\twocolwid]{"images/results_games"}
+    \caption{Results of a survey on a group of CCCS teachers on reactions to games developed. Games to the left of the dotted line were written in semesters before spyral was used in Educational Game Development.}
+\end{figure}
+  
 
-    %\begin{column}{\onecolwid}
-	
-		\begin{center}
-			\includegraphics[scale=1]{"images/results_games"}
-		 \end{center}
-	
-      \begin{block}{Experiment}
-        \rmfamily{
+\end{column}
+\begin{column}{\sepwid}\end{column}            % empty spacer column
 
-	This is the experiment.
-		}
-  \end{block}
-  \vskip2ex
-          \setbeamercolor{block alerted title}{fg=black,bg=norange}	% frame color
-          \setbeamercolor{block alerted body}{fg=black,bg=white}
-%  \setbeamercolor{block alerted title}{fg=black,bg=green}	% frame color
-%  \setbeamercolor{block alerted body}{fg=black,bg=ngreen}		% body color
-  \begin{alertblock}{Funding}
-    \rmfamily{Funding provided by the 
-	National Science Foundation \#312154 via J.\ A. Pelesko
-	}\vspace{.5em}
-  \end{alertblock}
+%%% Column 3
 
-%\end{column}
-%\begin{column}{\sepwid}\end{column}			% empty spacer column
+        \begin{column}{\onecolwid}
+        
+        \begin{block}{Platipy}
+            \rmfamily{
+                The development of applications with rich graphical user interfaces has traditionally required an in-depth knowledge of a platform's programming languages and frameworks.  Platipy is a documentation project which seeks to leverage domain knowledge common to most Junior and Senior-level computer science students to teach Python and Spyral in a fun, quick, and interactive way that allows users to begin making games as soon as possible.  Platipy covers basic concepts such as obtaining software, setting up a development and testing environment, an introduction to Python (including syntax, data structures, functions, and classes) and Spyral documentation.  The introduction to Spyral culminates in an example game which includes important components such as adding and controlling graphics, creating game logic, detecting collisions, and handling user input.  These elements form the basis for developing both simple and complex games. 
+    		}
+    	\end{block}
+                    
+        
+        \begin{block}{Teacher Surveys}
+              \rmfamily{
+                    We selected a subset of the games from semesters of Educational Game Development before and after the introduction of Spyral. A group of teachers from CCCS then examined the games and rated their reactions in four different categories: how fun are the games, how well do the games evaluate a student's skills, how well does the game teach students new skills, and how useful the game would be in their classroom. The average of the survey responses are shown in Figure \ref{reaction}, divided by whether spyral was used in the creation of these games. Additionally, we asked the teachers to choose the two games which they believed to be the best, and the results are shown in Table \ref{favorites}.
+      		}
+        \end{block}
+        \vskip2ex
+        
+	\end{column}
+	\begin{column}{\sepwid}\end{column}			% empty spacer column
+
+
 
 %%% Column 4
-
-%	    \begin{column}{\onecolwid}
+    \begin{column}{\onecolwid}
+                
+        \begin{block}{Teacher Surveys}
+              \rmfamily{
+                    We selected a subset of the games from semesters of Educational Game Development before and after the introduction of Spyral. A group of teachers from CCCS then examined the games and rated their reactions in four different categories: how fun are the games, how well do the games evaluate a student's skills, how well does the game teach students new skills, and how useful the game would be in their classroom. The average of the survey responses are shown in Figure \ref{reaction}, divided by whether spyral was used in the creation of these games. Additionally, we asked the teachers to choose the two games which they believed to be the best, and the results are shown in Table \ref{favorites}.
+      		}
+        \end{block}
+        \vskip2ex
+        
+            
+            
 		\begin{block}{Results}
-			\rmfamily{
-			
-			\begin{tabular}{ l | c | c | c | c | r }
-				Game & Fun & Teaching & Evaluation & Usefulness & Total \\
-				Chester Pets & 5 & 3 & 3 & 3 & 14 \\
-				Space Recycler & 2 & 3 & 4 & 3 & 12 \\
-				Math Adder & 4 & 4 & 1 & 3 & 12 \\
-				Math Hunt & 1 & 1 & 2 & 1 & 5 \\
-				Cannon Fodder & 0 & 1 & 1 & 1 & 3 \\
-				Dr. Math & 0 & 0 & 0 & 0 & 0 \\
-				No game listed & 0 & 0 & 1 & 1 & 2 \\
-				Total & 12 & 12 & 12 & 12 & 48 \\
-			\end{tabular}	
-
+			\rmfamily{            
+                \begin{tabular}{l*{4}{c}r}
+                Game              & Most & Best & Most \\
+                              & Fun & Teaching & Useful \\
+                \hline
+                Dr. Math & 0 & 0 & 1 \\
+                Chester Pets & 5 & 3 & 3 \\
+                Math Hunt & 1 & 2 & 1 \\
+                Cannon Fodder & 0 & 1 & 1 \\
+                Space Recycler & 2 & 4 & 3 \\
+                Math Adder & 4 & 1 & 2 \\
+                \end{tabular}
 			}	
 	\end{block}
 	  \vskip2ex
 
 	  \begin{alertblock}{Conclusion}
-	    \rmfamily{As seen from the figures, the theory is a good approximation to experiment, but some corrections need to be made. In terms of our MEMS devices, we see that the theory does not accurately describe $\lambda^*$ for high voltages. Thus, using the theory alone to design MEMS devices will lead to a smaller range of stable device operation. In order to increase this range and get the most out of the devices, we must obtain a more accurate theoretical description of $\lambda^*$. This may done by eliminating some of the approximations made in the derivation of equation \eqref{MEMSeq}. 
-	
+	    \rmfamily{As seen from the figures, the theory is a good approximation to experiment, but some corrections need to be made. In terms of our MEMS devices, we see that the theory does not accurately describe $\lambda^*$ for high voltages. Thus, using the theory alone to design MEMS devices will lead to a smaller range of stable device operation. In order to increase this range and get the most out of the devices, we must obtain a more accurate theoretical description of $\lambda^*$. This may done by eliminating some of the approximations made in the derivation of equation \eqref{corollary}. 
 		}
 		\vspace{.5em}
 	  \end{alertblock}
@@ -191,75 +204,6 @@
 	\end{column}
 	\begin{column}{\sepwid}\end{column}			% empty spacer column
 
-	
-%    \begin{column}{\threecolwid}					  % create a three-column-wide column and then we will split it up later
-%      \begin{block}{Altering Column Spans}
-%        \rmfamily{You can make columns that span multiple other columns relatively easily. Lengths are defined in the template that make columns look normal-ish if you want to use a four-column layout like this poster. If you want to use a different number of columns, you will have to modify those lengths accordingly at the top of the poster.tex file.
-%        
-%        In particular, near the top of the TeX file you will see lines that look like:
-%        \begin{semiverbatim}
-%          \hskip1ex\\setlength\{\\sepwid\}\{0.024\\paperwidth\}
-%          
-%          \hskip1ex\\setlength\{\\onecolwid\}\{0.22\\paperwidth\}
-%          
-%          \hskip1ex\\setlength\{\\twocolwid\}\{0.464\\paperwidth\}
-%          
-%          \hskip1ex\\setlength\{\\threecolwid\}\{0.708\\paperwidth\}
-%        \end{semiverbatim}}
-%        
-%        Set ``sepwid'' to be some small length somewhere near 0.025 (this is the space between columns). Then if $n$ is the number of columns you want, you should set
-%        \begin{align*}
-%          \text{onecolwid} & = \frac{1}{n}(1-(n+1)\times\text{sepwid}), \\
-%          \text{twocolwid} & = 2\times\text{onecolwid} + \text{sepwid}, \\
-%          \text{threecolwid} & = 3\times\text{onecolwid} + 2\times\text{sepwid}.
-%        \end{align*}
-%      \end{block}
-%      \begin{columns}[t,totalwidth=\threecolwid]	% split up that three-column-wide column
-%        \begin{column}{\onecolwid}
-%          \setbeamercolor{block title}{fg=red,bg=white}%frame color
-%          \setbeamercolor{block body}{fg=black,bg=white}%body color
-%          \begin{block}{Block Colours}
-%            \rmfamily{For the standard blocks there are two colours; one for the title and one for the block body:\\
-%            \begin{semiverbatim}
-%              {\color{red}\\setbeamercolor}\{block title\}\newline \{fg=red,bg=white\}
-%            \end{semiverbatim}
-%            \begin{semiverbatim}
-%              {\color{red}\\setbeamercolor}\{block  body\}\newline \{fg=black,bg=white\}
-%            \end{semiverbatim}
-%            The \emph{fg} colour sets the text colour and \emph{bg} sets the background colour.
-%            For the normal blocks it makes no sense to use a background colour other than white. You \emph{can} change it, but it will look weird!}
-%          \end{block}
-%        \end{column}
-%        \begin{column}{\onecolwid}
-%          \setbeamercolor{block alerted title}{fg=black,bg=norange}	% frame color
-%          \setbeamercolor{block alerted body}{fg=black,bg=white}		% body color
-%          \begin{alertblock}{Alert Block Colours}
-%            \rmfamily{You can similarly modify the colours for alert blocks (but try not to overdo it):\\
-%            \begin{semiverbatim}
-%              {\color{red}\\setbeamercolor}\{block title\}\newline \{fg=black,bg=norange\}
-%            \end{semiverbatim}
-%            \begin{semiverbatim}
-%              {\color{red}\\setbeamercolor}\{block  body\}\newline \{fg=black,bg=white\}
-%            \end{semiverbatim}}
-%          \end{alertblock}        
-%        \end{column}
-%        \begin{column}{\onecolwid}
-%          \begin{block}{References}
-%            \rmfamily{Some references and a graphic to show you how it's done:}
-%            
-%		        \small{\rmfamily{\begin{thebibliography}{99}
-%		        \bibitem{KLPL06} D.~W. Kribs, R. Laflamme, D. Poulin, M. Lesosky, Quantum Inf. \& Comp. \textbf{6} (2006), 383-399.
-%		        \bibitem{zanardi97} P. Zanardi, M. Rasetti, Phys. Rev. Lett. \textbf{79},  3306 (1997).
-%		        \end{thebibliography}}}
-%			      \vspace{0.75in}
-%			      \begin{center}
-%			        \includegraphics[width=5in]{canada.jpg}
-%			      \end{center}
-%		      \end{block}
-%        \end{column}
-%      \end{columns}
-%      \vskip2.5ex
-%    \end{column}
   \begin{column}{\sepwid}\end{column}			% empty spacer column
  \end{columns}
 \end{frame}
