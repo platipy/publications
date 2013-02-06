@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.30)  4 FEB 2013 12:45
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.30)  6 FEB 2013 01:05
 entering extended mode
 **C:/Users/acbart/Projects/Platipy/publications/CHEP*13/poster.tex
 ("C:/Users/acbart/Projects/Platipy/publications/CHEP 13/poster.tex"
@@ -778,6 +778,24 @@ Package: fp-eval 1995/04/03
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen184
+\captionmargin@=\dimen185
+\captionwidth=\dimen186
+\caption@indent=\dimen187
+\caption@parindent=\dimen188
+\caption@hangindent=\dimen189
+)
+\c@ContinuedFloat=\count165
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
 \sepwid=\skip57
 \onecolwid=\skip58
 \twocolwid=\skip59
@@ -798,8 +816,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
 sty"
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen184
-\pgf@nodesepend=\dimen185
+\pgf@nodesepstart=\dimen190
+\pgf@nodesepend=\dimen191
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
 sty"
@@ -809,8 +827,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen186
-\pgffor@skip=\dimen187
+\pgffor@iter=\dimen192
+\pgffor@skip=\dimen193
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
 ))
@@ -820,29 +838,29 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
 code.tex"
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count165
-\pgfplotmarksize=\dimen188
+\pgf@plot@mark@count=\count166
+\pgfplotmarksize=\dimen194
 )
-\tikz@lastx=\dimen189
-\tikz@lasty=\dimen190
-\tikz@lastxsaved=\dimen191
-\tikz@lastysaved=\dimen192
-\tikzleveldistance=\dimen193
-\tikzsiblingdistance=\dimen194
+\tikz@lastx=\dimen195
+\tikz@lasty=\dimen196
+\tikz@lastxsaved=\dimen197
+\tikz@lastysaved=\dimen198
+\tikzleveldistance=\dimen199
+\tikzsiblingdistance=\dimen200
 \tikz@figbox=\box54
 \tikz@tempbox=\box55
-\tikztreelevel=\count166
-\tikznumberofchildren=\count167
-\tikznumberofcurrentchild=\count168
-\tikz@fig@count=\count169
+\tikztreelevel=\count167
+\tikznumberofchildren=\count168
+\tikznumberofcurrentchild=\count169
+\tikz@fig@count=\count170
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count170
-\pgfmatrixcurrentcolumn=\count171
-\pgf@matrix@numberofcolumns=\count172
+\pgfmatrixcurrentrow=\count171
+\pgfmatrixcurrentcolumn=\count172
+\pgf@matrix@numberofcolumns=\count173
 )
-\tikz@expandcount=\count173
+\tikz@expandcount=\count174
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarytopaths.code.tex"
@@ -855,7 +873,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.t
 ex"
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen195
+\arrowsize=\dimen201
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarybackgrounds.code.tex"
@@ -1015,28 +1033,28 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \inboxrule=\skip76
 )
 ("C:\Users\acbart\Projects\Platipy\publications\CHEP 13\poster.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 62.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 57.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 62.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1077,20 +1095,20 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count174
-\scratchdimen=\dimen196
+\scratchcounter=\count175
+\scratchdimen=\dimen202
 \scratchbox=\box58
-\nofMPsegments=\count175
-\nofMParguments=\count176
+\nofMPsegments=\count176
+\nofMParguments=\count177
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count177
-\MPscratchDim=\dimen197
-\MPnumerator=\count178
-\makeMPintoPDFobject=\count179
+\MPscratchCnt=\count178
+\MPscratchDim=\dimen203
+\MPnumerator=\count179
+\makeMPintoPDFobject=\count180
 \everyMPtoPDFconversion=\toks45
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 57.
+Package hyperref Info: Link coloring OFF on input line 62.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1098,11 +1116,11 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count180
+\c@section@level=\count181
 )
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
 
 ("C:\Users\acbart\Projects\Platipy\publications\CHEP 13\poster.out")
 ("C:\Users\acbart\Projects\Platipy\publications\CHEP 13\poster.out")
@@ -1132,80 +1150,90 @@ Dictionary: translator-numbers-dictionary, Language: English
 -theorem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 57.
+LaTeX Info: Redefining \includegraphics on input line 62.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 57.
+LaTeX Info: Redefining \selectfont on input line 62.
 
 ("C:\Users\acbart\Projects\Platipy\publications\CHEP 13\poster.nav")
 <images/VTlogo.png, id=12, 2007.5pt x 960.58875pt>
 File: images/VTlogo.png Graphic file (type png)
  <use images/VTlogo.png>
-Package pdftex.def Info: images/VTlogo.png used on input line 57.
+Package pdftex.def Info: images/VTlogo.png used on input line 62.
 (pdftex.def)             Requested size: 281.04808pt x 134.4815pt.
 
-Overfull \hbox (141.13449pt too wide) in paragraph at lines 57--57
+Overfull \hbox (141.13449pt too wide) in paragraph at lines 62--62
 []  
  []
 
-LaTeX Font Info:    Calculating math sizes for size <17.86> on input line 57.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 57.
+LaTeX Font Info:    Calculating math sizes for size <17.86> on input line 62.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 62.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 57.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 62.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 62.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 57.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 62.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.86> on input line 57.
+(Font)              <17.86> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.50194> on input line 57.
+(Font)              <12.50194> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.93> on input line 57.
+(Font)              <8.93> on input line 62.
 
 <images/UDLogo.png, id=14, 309.155pt x 355.3275pt>
 File: images/UDLogo.png Graphic file (type png)
  <use images/UDLogo.png>
-Package pdftex.def Info: images/UDLogo.png used on input line 57.
+Package pdftex.def Info: images/UDLogo.png used on input line 62.
 (pdftex.def)             Requested size: 117.48012pt x 135.02585pt.
 
-Overfull \hbox (24.21626pt too wide) in paragraph at lines 57--57
+Overfull \hbox (24.21626pt too wide) in paragraph at lines 62--62
 [][]  
  []
 
 
-Overfull \hbox (304.4445pt too wide) detected at line 57
+Overfull \hbox (304.4445pt too wide) detected at line 62
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 265.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 207.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 265.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <37.03> on input line 265.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <25.92088> on input line 265.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.515> on input line 265.
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 265
-.
+Underfull \hbox (badness 1199) in paragraph at lines 207--207
+\T1/lmr/m/n/37.03 der-stand-ing of pro-gram-ming lan-guages,
+ []
 
+
+Underfull \hbox (badness 2150) in paragraph at lines 207--207
+\T1/lmr/m/n/37.03 object-oriented de-sign, problem-solving,
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 207.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <37.03> on input line 207.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <25.92088> on input line 207.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <18.515> on input line 207.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 207
+.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmss.fd"
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1213,28 +1241,40 @@ File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: "images/results_games".png Graphic file (type png)
 
 <use "images/results_games".png>
-Package pdftex.def Info: "images/results_games".png used on input line 265.
-(pdftex.def)             Requested size: 1659.94753pt x 928.21556pt.
+Package pdftex.def Info: "images/results_games".png used on input line 207.
+(pdftex.def)             Requested size: 1408.41145pt x 787.5867pt.
 
-Overfull \hbox (992.16902pt too wide) in paragraph at lines 265--265
+Overfull \hbox (740.63295pt too wide) in paragraph at lines 207--207
  [] 
  []
 
 
-Overfull \hbox (214.1925pt too wide) in paragraph at lines 265--265
-[][] 
+Overfull \hbox (740.63295pt too wide) in paragraph at lines 207--207
+ $[]$ 
  []
 
 
-LaTeX Warning: Reference `MEMSeq' on page 1 undefined on input line 265.
+Underfull \hbox (badness 1248) in paragraph at lines 207--207
+\T1/lmr/m/n/37.03 quired an in-depth knowl-edge of a plat-
+ []
 
 
-Overfull \vbox (1569.7719pt too high) detected at line 265
+LaTeX Warning: Reference `favorites' on page 1 undefined on input line 207.
+
+
+Overfull \hbox (719.34712pt too wide) detected at line 207
+[][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
+][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][]
+ [][][][][][][][][] [][][][][][][] 
+ []
+
+
+Overfull \vbox (136.71593pt too high) detected at line 207
  []
 
 File: images/VTlogo.png Graphic file (type png)
 <use images/VTlogo.png>
-Package pdftex.def Info: images/VTlogo.png used on input line 265.
+Package pdftex.def Info: images/VTlogo.png used on input line 207.
 (pdftex.def)             Requested size: 281.04808pt x 134.4815pt.
 
 Overfull \hbox (141.13449pt too wide) has occurred while \output is active
@@ -1243,7 +1283,7 @@ Overfull \hbox (141.13449pt too wide) has occurred while \output is active
 
 File: images/UDLogo.png Graphic file (type png)
 <use images/UDLogo.png>
-Package pdftex.def Info: images/UDLogo.png used on input line 265.
+Package pdftex.def Info: images/UDLogo.png used on input line 207.
 (pdftex.def)             Requested size: 117.48012pt x 135.02585pt.
 
 Overfull \hbox (24.21626pt too wide) has occurred while \output is active
@@ -1273,41 +1313,38 @@ Users/acbart/Projects/Platipy/publications/CHEP 13/images/UDLogo.png> <C:/Users
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
 
 ("C:\Users\acbart\Projects\Platipy\publications\CHEP 13\poster.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
- 19688 strings out of 494045
- 370211 string characters out of 3148384
- 536830 words of memory out of 3000000
- 22464 multiletter control sequences out of 15000+200000
+ 20674 strings out of 494045
+ 388195 string characters out of 3148384
+ 577700 words of memory out of 3000000
+ 23443 multiletter control sequences out of 15000+200000
  66814 words of font info for 63 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 52i,19n,66p,715b,1168s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{MEMSeq} has been referenced but does not exist, r
-eplaced by a fixed one
+ 53i,19n,92p,1023b,1152s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{favorites} has been referenced but does not exist
+, replaced by a fixed one
 
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files
-/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts
-/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.
-enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 340877 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on poster.pdf (1 page, 337313 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
+ 50 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
  64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

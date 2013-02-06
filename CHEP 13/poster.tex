@@ -109,7 +109,7 @@ Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by 
 \begin{column}{\onecolwid}
     \begin{block}{Conspyre}
         \rmfamily{
-    		Conspyre is a cloud-based networking system built to work in conjunction with Spyral. The system is designed with two parts: (a) a client library for XO games that talks to (b) a web framework that can store and retrieve data and provides a portal for teachers. Using this sytem, XO developers can persist data between students' play sessions and enable communication between teachers and students. As it is used primarily by novice developers with limited experience, Conspyre is written in Python and built on a scaffolding paradigm by which students can quickly develop functional applications with a minimal knowledge of web development.
+    		Conspyre is a cloud-based networking system built to work in conjunction with Spyral. The system is designed with two parts: (1) a client library for XO games that talks to (2) a web framework that can store and retrieve data and provides a portal for teachers. Using this sytem, XO developers can persist data between students' play sessions and enable communication between teachers and students. As it is used primarily by novice developers with limited experience, Conspyre is written in Python and built on a scaffolding paradigm by which students can quickly develop functional applications with a minimal knowledge of web development.
 		}
 	\end{block}
 
@@ -168,13 +168,6 @@ Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by 
 
 %%% Column 4
     \begin{column}{\onecolwid}
-                
-        \begin{block}{Teacher Surveys}
-              \rmfamily{
-                    We selected a subset of the games from semesters of Educational Game Development before and after the introduction of Spyral. A group of teachers from CCCS then examined the games and rated their reactions in four different categories: how fun are the games, how well do the games evaluate a student's skills, how well does the game teach students new skills, and how useful the game would be in their classroom. The average of the survey responses are shown in Figure \ref{reaction}, divided by whether spyral was used in the creation of these games. Additionally, we asked the teachers to choose the two games which they believed to be the best, and the results are shown in Table \ref{favorites}.
-      		}
-        \end{block}
-        \vskip2ex
         
             
             
@@ -196,10 +189,15 @@ Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by 
 	  \vskip2ex
 
 	  \begin{alertblock}{Conclusion}
-	    \rmfamily{As seen from the figures, the theory is a good approximation to experiment, but some corrections need to be made. In terms of our MEMS devices, we see that the theory does not accurately describe $\lambda^*$ for high voltages. Thus, using the theory alone to design MEMS devices will lead to a smaller range of stable device operation. In order to increase this range and get the most out of the devices, we must obtain a more accurate theoretical description of $\lambda^*$. This may done by eliminating some of the approximations made in the derivation of equation \eqref{corollary}. 
+	    \rmfamily{To program for the XO laptop, undergraduates must first learn Python and Pygame, a Python package for game development.  In the past, gaining competence in these two tools has required a significant portion of the course and reduced the amount of time that can be spent eliciting input from teachers and designing, testing, and deploying games.  As evidenced by the data gathered from CCCS teachers, the quality of games created using our tools has increased significantly.  The creation of Platipy, Spyral, and Conspyre have reduced the amount of time undergraduates spent learning frameworks and optimizing their games, allowing them to focus more on the planning, development, creation of art assets, and testing.  This has led to better games and more satisfied clients.  
 		}
 		\vspace{.5em}
 	  \end{alertblock}
+
+		\begin{block}{Future Work}
+			\rmfamily{There is significant room for improvement in Platipy, Spyral, and Conspyre.  There are several features of Spyral which are explained in the API but lack proper examples.  In the future, we plan to expand the documentation available on Platipy to include additional example projects that utilize more features of Spyral and can be used as the basis for new games.  We also plan on compiling a list of useful resources for game programmers including information on developing basic AI agents, incorporating multiplayer, and obtaining royalty-free audio and video.  We will also include all high-quality student projects for download so that they can be used by future students for reference.  Finally, the Spyral API will be expanded to efficiently utilize more features of the Pygame library.  }
+		\end{block}
+        \vskip2ex
 
 	\end{column}
 	\begin{column}{\sepwid}\end{column}			% empty spacer column
