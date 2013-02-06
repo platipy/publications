@@ -83,7 +83,7 @@ Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by 
 
     \begin{block}{Spyral}
         \rmfamily{
-    		Spyral is a 2D sprite-based engine built on top of Pygame designed to allow the rapid development of games, particularly those targeted at low performance platforms. It started as a library to optimize drawing during an early semester of the course, and grew to include many more features that previously had to be written by each team individually. Spyral now includes modules to handle:
+    		Spyral is a 2D sprite-based engine built on top of Pygame designed to allow the rapid development of games, particularly those targeted at low performance platforms. Spyral started as a library to simply optimize drawing because of the limited performance of the XO, and grew to include many features that had to previously be written by nearly every team. Spyral now includes modules to handle:
     		\begin{itemize}
     			\item Images - loading and drawing graphics
     			\item Sprites - positioning images on the screen
@@ -94,9 +94,10 @@ Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by 
     			\item Vectors - manipulating 2D coordinates
     			\item Animations - simple sprite transformations
     			\item Clock - controlling game speed
+                \item Forms - higher level input handling
     		\end{itemize}
             
-            In addition to providing tools for making game development easier, spyral also works to teach and encourage better software engineering practices to the users, targetting places where poor decisions were routinely made in the past. In particular, the use of a scene system encourages the separation of content into disjoint pieces where possible, and the event system is designed to mimick and be used like modern event driven systems for games, networking software, and parallel software.
+        In addition to providing tools for making game development easier, spyral also works to teach and encourage better software engineering practices to the users, targetting places where poor decisions were routinely made in the past.
 		}
 	\end{block}
 
@@ -107,6 +108,12 @@ Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by 
 %% Column 2
 
 \begin{column}{\onecolwid}
+    \begin{block}{Spyral (continued)}
+    \rmfamily{
+\noindent In particular, the use of a scene system encourages the separation of content into disjoint pieces where possible, and the event system is designed to mimick and be used like modern event driven systems for games, networking software, and parallel software.
+    }
+    \end{block}
+    
     \begin{block}{Conspyre}
         \rmfamily{
     		Conspyre is a cloud-based networking system built to work in conjunction with Spyral. The system is designed with two parts: (1) a client library for XO games that talks to (2) a web framework that can store and retrieve data and provides a portal for teachers. Using this sytem, XO developers can persist data between students' play sessions and enable communication between teachers and students. As it is used primarily by novice developers with limited experience, Conspyre is written in Python and built on a scaffolding paradigm by which students can quickly develop functional applications with a minimal knowledge of web development.
@@ -118,7 +125,7 @@ Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by 
     		Example.activity is a template for organizing games written using spyral and other libraries for easy deployment to the OLPC XO as well as testing on a user's regular computer. The core features are
             \begin{itemize}
                 \item A launcher made specifically for running on the OLPC XO
-                \item Bundled libraries like spyral, conspyre, sugargame, and all the associated dependencies
+                \item Bundled libraries like spyral, conspyre, sugargame, and their dependencies
                 \item Generating and bundling translations
                 \item A launcher made specifically for development, which includes
                     \begin{itemize}
@@ -131,8 +138,6 @@ Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by 
 		}
 	\end{block}
     
-    \vspace{3in}
-  
 \begin{figure}[h]
 	\includegraphics[width=\twocolwid]{"images/results_games"}
     \hspace{0.3in}
@@ -172,18 +177,24 @@ Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by 
             
             
 		\begin{block}{Results}
-			\rmfamily{            
+			\rmfamily{
+                \begin{table}
+                    \centering
                 \begin{tabular}{l*{4}{c}r}
                 Game              & Most & Best & Most \\
                               & Fun & Teaching & Useful \\
                 \hline
                 Dr. Math & 0 & 0 & 1 \\
-                Chester Pets & 5 & 3 & 3 \\
                 Math Hunt & 1 & 2 & 1 \\
                 Cannon Fodder & 0 & 1 & 1 \\
+                \hline
                 Space Recycler & 2 & 4 & 3 \\
                 Math Adder & 4 & 1 & 2 \\
+                Chester Pets & 5 & 3 & 3 \\
                 \end{tabular}
+                \captionsetup{width=\onecolwid}
+                \caption{Number of times each game was chosen as one of the top games in each category from a survey on a group of 6 teachers.\label{favorites}}
+            \end{table}
 			}	
 	\end{block}
 	  \vskip2ex
