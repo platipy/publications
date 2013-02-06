@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.30)  6 FEB 2013 01:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.30)  6 FEB 2013 12:09
 entering extended mode
 **C:/Users/acbart/Projects/Platipy/publications/CHEP*13/poster.tex
 ("C:/Users/acbart/Projects/Platipy/publications/CHEP 13/poster.tex"
@@ -1212,27 +1212,27 @@ Overfull \hbox (304.4445pt too wide) detected at line 62
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 207.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 218.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1199) in paragraph at lines 207--207
+Underfull \hbox (badness 1199) in paragraph at lines 218--218
 \T1/lmr/m/n/37.03 der-stand-ing of pro-gram-ming lan-guages,
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 207--207
+Underfull \hbox (badness 2150) in paragraph at lines 218--218
 \T1/lmr/m/n/37.03 object-oriented de-sign, problem-solving,
  []
 
-LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 207.
+LaTeX Font Info:    Calculating math sizes for size <37.03> on input line 218.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <37.03> on input line 207.
+(Font)              <37.03> on input line 218.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <25.92088> on input line 207.
+(Font)              <25.92088> on input line 218.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.515> on input line 207.
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 207
+(Font)              <18.515> on input line 218.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 218
 .
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmss.fd"
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1241,40 +1241,33 @@ File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: "images/results_games".png Graphic file (type png)
 
 <use "images/results_games".png>
-Package pdftex.def Info: "images/results_games".png used on input line 207.
+Package pdftex.def Info: "images/results_games".png used on input line 218.
 (pdftex.def)             Requested size: 1408.41145pt x 787.5867pt.
 
-Overfull \hbox (740.63295pt too wide) in paragraph at lines 207--207
+Overfull \hbox (740.63295pt too wide) in paragraph at lines 218--218
  [] 
  []
 
 
-Overfull \hbox (740.63295pt too wide) in paragraph at lines 207--207
+Overfull \hbox (740.63295pt too wide) in paragraph at lines 218--218
  $[]$ 
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 207--207
+Underfull \hbox (badness 1248) in paragraph at lines 218--218
 \T1/lmr/m/n/37.03 quired an in-depth knowl-edge of a plat-
  []
 
 
-LaTeX Warning: Reference `favorites' on page 1 undefined on input line 207.
-
-
-Overfull \hbox (719.34712pt too wide) detected at line 207
+Overfull \hbox (719.34712pt too wide) detected at line 218
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
 ][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][]
  [][][][][][][][][] [][][][][][][] 
  []
 
-
-Overfull \vbox (136.71593pt too high) detected at line 207
- []
-
 File: images/VTlogo.png Graphic file (type png)
 <use images/VTlogo.png>
-Package pdftex.def Info: images/VTlogo.png used on input line 207.
+Package pdftex.def Info: images/VTlogo.png used on input line 218.
 (pdftex.def)             Requested size: 281.04808pt x 134.4815pt.
 
 Overfull \hbox (141.13449pt too wide) has occurred while \output is active
@@ -1283,7 +1276,7 @@ Overfull \hbox (141.13449pt too wide) has occurred while \output is active
 
 File: images/UDLogo.png Graphic file (type png)
 <use images/UDLogo.png>
-Package pdftex.def Info: images/UDLogo.png used on input line 207.
+Package pdftex.def Info: images/UDLogo.png used on input line 218.
 (pdftex.def)             Requested size: 117.48012pt x 135.02585pt.
 
 Overfull \hbox (24.21626pt too wide) has occurred while \output is active
@@ -1313,36 +1306,29 @@ Users/acbart/Projects/Platipy/publications/CHEP 13/images/UDLogo.png> <C:/Users
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
 
 ("C:\Users\acbart\Projects\Platipy\publications\CHEP 13\poster.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 20674 strings out of 494045
- 388195 string characters out of 3148384
- 577700 words of memory out of 3000000
- 23443 multiletter control sequences out of 15000+200000
- 66814 words of font info for 63 fonts, out of 3000000 for 9000
+ 20677 strings out of 494045
+ 388251 string characters out of 3148384
+ 585577 words of memory out of 3000000
+ 23446 multiletter control sequences out of 15000+200000
+ 64046 words of font info for 62 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 53i,19n,92p,1023b,1152s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{favorites} has been referenced but does not exist
-, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/Mi
-KTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on poster.pdf (1 page, 337313 bytes).
+ 53i,19n,92p,1056b,1152s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on poster.pdf (1 page, 338221 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
