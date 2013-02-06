@@ -9,6 +9,7 @@
 \usepackage[scale=1.24,orientation=portrait]{beamerposter}
 \usepackage{graphicx}			% allows us to import images
 \usepackage{caption}
+\usepackage{natbib}
 % \usepackage{floatrow}
 
 
@@ -71,7 +72,7 @@
 \begin{column}{\onecolwid}
     \begin{alertblock}{Introduction}
         \rmfamily{
-           Creating a game is an excellent learning opportunity for computer science students because it requires an in-depth understanding of programming languages, object-oriented design, problem-solving, constraints, and teamwork.  Games are also a powerful teaching tool which primary and secondary school educators have used for targeted teaching, improvement, and evaluation of their students' skills.  In response, the University of Delaware created a course called Educational Game Development which works with middle school teachers at the Chester Community Charter School (CCCS). Teams of 3-5 upperclassmen are given the opportunity to apply skills learned in the classroom to create software for real-world clients.  To help this course achieve its goals, we have developed a set of tools to address some of the difficulties and limitations in existing tools.
+           Creating a game is an excellent learning opportunity for computer science students because it requires an in-depth understanding of programming languages, object-oriented design, problem-solving, constraints, and teamwork.  Games are also a powerful teaching tool which primary and secondary school educators have used for targeted teaching, improvement, and evaluation of their students' skills.  In response, the University of Delaware created a course called Educational Game Development which works with middle school teachers at the Chester Community Charter School (CCCS) [\citet{Burns:2012:IHS:2157136.2157199}]. Teams of 3-5 upperclassmen are given the opportunity to apply skills learned in the classroom to create software for real-world clients.  To help this course achieve its goals, we have developed a set of tools to address some of the difficulties and limitations in existing tools.
 		}
     	\vspace{.2em}
     \end{alertblock}
@@ -206,9 +207,15 @@ Five years ago, CCCS received 1,400 XO laptops, low-cost computers developed by 
 	  \end{alertblock}
 
 		\begin{block}{Future Work}
-			\rmfamily{There is significant room for improvement in Platipy, Spyral, and Conspyre going forward.  A number of Spyral features aren't fully documented in platipy, and all of them could use more concrete examples. We also plan to expand Platipy to include more complete examples, including downloads of projects from previous semesters. We also plan on compiling a list of useful resources for game programmers including information on developing basic AI agents, incorporating multiplayer, and obtaining royalty-free audio and video. Additionally, every semester we elicit feedback from students using Spyral, and we plan to add more features to address common concerns and use cases. Lastly, Conspyre will receive additional work that includes more complete examples and the potential for an offline mode that allows syncing when network access is available. }
+			\rmfamily{There is significant room for improvement in Platipy, Spyral, and Conspyre going forward. We plan to expand Platipy to include more complete examples, including downloads of projects from previous semesters, and better coverage of the full Spyral API. We also plan on compiling a list of useful resources for game programmers including information on developing basic AI agents, incorporating multiplayer, and obtaining royalty-free audio and video. Additionally, every semester we elicit feedback from students using Spyral, and we plan to add more features to address common concerns and use cases. Lastly, Conspyre will receive additional work that includes more complete examples and the potential for an offline mode that allows syncing when network access is available. }
 		\end{block}
-        \vskip2ex
+        \vskip1ex
+        \begin{block}{References}
+            \rmfamily{
+                \bibliographystyle{te}
+                \bibliography{poster}
+            }
+        \end{block}
 
 	\end{column}
 	\begin{column}{\sepwid}\end{column}			% empty spacer column
